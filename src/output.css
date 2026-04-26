@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-light: 300;
     --font-weight-normal: 400;
@@ -480,11 +481,17 @@
   .rounded-\[20px\] {
     border-radius: 20px;
   }
+  .rounded-\[25px\] {
+    border-radius: 25px;
+  }
   .rounded-\[30px\] {
     border-radius: 30px;
   }
   .rounded-\[36px\] {
     border-radius: 36px;
+  }
+  .rounded-\[50px\] {
+    border-radius: 50px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -497,8 +504,14 @@
   .border-\[black\] {
     border-color: black;
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .bg-\[\#00C97B\] {
     background-color: #00C97B;
+  }
+  .bg-\[\#00CB7C\] {
+    background-color: #00CB7C;
   }
   .bg-\[\#F2F6FC\] {
     background-color: #F2F6FC;
@@ -547,6 +560,9 @@
   }
   .p-\[10px\] {
     padding: 10px;
+  }
+  .p-\[10px_40px\] {
+    padding: 10px 40px;
   }
   .p-\[15px\] {
     padding: 15px;
@@ -640,6 +656,9 @@
   }
   .pb-\[10px\] {
     padding-bottom: 10px;
+  }
+  .pb-\[12px\] {
+    padding-bottom: 12px;
   }
   .text-center {
     text-align: center;
@@ -737,6 +756,9 @@
   .text-\[white\] {
     color: white;
   }
+  .text-white {
+    color: var(--color-white);
+  }
   .underline {
     text-decoration-line: underline;
   }
@@ -759,6 +781,11 @@
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  .placeholder\:text-white {
+    &::placeholder {
+      color: var(--color-white);
+    }
   }
   .hover\:bg-\[\#003687\] {
     &:hover {
@@ -859,9 +886,19 @@
       width: 360px;
     }
   }
+  .lg\:w-\[400px\] {
+    @media (width >= 64rem) {
+      width: 400px;
+    }
+  }
   .lg\:w-\[450px\] {
     @media (width >= 64rem) {
       width: 450px;
+    }
+  }
+  .lg\:w-\[480px\] {
+    @media (width >= 64rem) {
+      width: 480px;
     }
   }
   .lg\:w-\[604px\] {
