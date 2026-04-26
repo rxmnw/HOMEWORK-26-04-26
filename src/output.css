@@ -382,6 +382,9 @@
   .self-center {
     align-self: center;
   }
+  .self-center {
+    align-self: center;
+  }
   .overflow-auto {
     overflow: auto;
   }
@@ -651,6 +654,13 @@
       }
     }
   }
+  .hover\:bg-\[\#003687\] {
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+      }
+    }
+  }
   .lg\:mt-\[1\] {
     @media (width >= 64rem) {
       margin-top: 1;
@@ -716,6 +726,11 @@
       width: 310px;
     }
   }
+  .lg\:w-\[310px\] {
+    @media (width >= 64rem) {
+      width: 310px;
+    }
+  }
   .lg\:w-\[350px\] {
     @media (width >= 64rem) {
       width: 350px;
@@ -751,6 +766,11 @@
       width: 650px;
     }
   }
+  .lg\:w-\[695px\] {
+    @media (width >= 64rem) {
+      width: 650px;
+    }
+  }
   .lg\:w-\[700px\] {
     @media (width >= 64rem) {
       width: 700px;
@@ -772,6 +792,11 @@
     }
   }
   .lg\:w-\[800px\] {
+    @media (width >= 64rem) {
+      width: 800px;
+    }
+  }
+  .lg\:w-\[824px\] {
     @media (width >= 64rem) {
       width: 800px;
     }
@@ -832,6 +857,28 @@
     }
   }
   .lg\:gap-\[100px\] {
+    @media (width >= 64rem) {
+      gap: 50px;
+    }
+  }
+  .lg\:gap-\[75px\] {
+  .lg\:p-\[20px\] {
+    @media (width >= 64rem) {
+      padding: 20px;
+    }
+  }
+  .lg\:px-\[50px\] {
+    @media (width >= 64rem) {
+      gap: 75px;
+    }
+  }
+  .lg\:gap-\[100px\] {
+  .lg\:px-\[200px\] {
+    @media (width >= 64rem) {
+      padding-inline: 200px;
+    }
+  }
+  .lg\:py-\[50px\] {
     @media (width >= 64rem) {
       gap: 100px;
     }
