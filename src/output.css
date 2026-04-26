@@ -1125,6 +1125,11 @@
       gap: 50px;
     }
   }
+  .lg\:gap-\[75px\] {
+    @media (width >= 64rem) {
+      gap: 75px;
+    }
+  }
   .lg\:gap-\[100px\] {
     @media (width >= 64rem) {
       gap: 100px;
@@ -1138,6 +1143,11 @@
   .lg\:px-\[50px\] {
     @media (width >= 64rem) {
       padding-inline: 50px;
+    }
+  }
+  .lg\:px-\[200px\] {
+    @media (width >= 64rem) {
+      padding-inline: 200px;
     }
   }
   .lg\:py-\[50px\] {
