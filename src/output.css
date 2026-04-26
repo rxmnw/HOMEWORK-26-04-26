@@ -1088,6 +1088,11 @@
       gap: 100px;
     }
   }
+  .lg\:px-\[50px\] {
+    @media (width >= 64rem) {
+      padding-inline: 50px;
+    }
+  }
   .lg\:py-\[50px\] {
     @media (width >= 64rem) {
       padding-block: 50px;
