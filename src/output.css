@@ -370,6 +370,12 @@
   .max-w-33 {
     max-width: calc(var(--spacing) * 33);
   }
+  .max-w-35 {
+    max-width: calc(var(--spacing) * 35);
+  }
+  .max-w-37 {
+    max-width: calc(var(--spacing) * 37);
+  }
   .max-w-50 {
     max-width: calc(var(--spacing) * 50);
   }
@@ -387,6 +393,9 @@
   }
   .max-w-350 {
     max-width: calc(var(--spacing) * 350);
+  }
+  .max-w-375 {
+    max-width: calc(var(--spacing) * 375);
   }
   .max-w-500 {
     max-width: calc(var(--spacing) * 500);
@@ -414,6 +423,9 @@
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .justify-evenly {
     justify-content: space-evenly;
@@ -1001,6 +1013,11 @@
   .lg\:w-\[604px\] {
     @media (width >= 64rem) {
       width: 604px;
+    }
+  }
+  .lg\:w-\[650px\] {
+    @media (width >= 64rem) {
+      width: 650px;
     }
   }
   .lg\:w-\[695px\] {
