@@ -375,6 +375,15 @@
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
   }
+  .max-w-320 {
+    max-width: calc(var(--spacing) * 320);
+  }
+  .max-w-330 {
+    max-width: calc(var(--spacing) * 330);
+  }
+  .max-w-340 {
+    max-width: calc(var(--spacing) * 340);
+  }
   .max-w-350 {
     max-width: calc(var(--spacing) * 350);
   }
